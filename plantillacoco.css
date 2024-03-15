@@ -1,0 +1,226 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial ;
+   background: linear-gradient(#71519d, pink);
+     
+    width:100%;
+    padding:30px;
+  
+    background-attachment: fixed;
+    background-size:100% 100%;
+    
+    height: 20%;
+    left:0px;
+    
+    }
+.dropdown::after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+ .contenido-desplegable a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Mostrar el menú desplegable al pasar el ratón */
+  .desplegable:hover .contenido-desplegable {
+    display: block;
+  }
+
+
+/* Contenedor de la barra de navegación */
+.navbar {
+    overflow: hidden;
+    background-color: #60286e;
+    font-family: var(--fuente-h1);
+    font-weight: 100;
+  }
+  
+  /* Contenedor de la barra de navegación */
+.barra-navegacion {
+    overflow: hidden;
+    background-color: #60286e;
+    font-family: var(--fuente-h1);
+    font-weight: 100;
+  }
+  
+  /* Enlaces dentro de la barra de navegación */
+  .barra-navegacion a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  /* El contenedor del desplegable */
+  .desplegable {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Botón del desplegable */
+  .desplegable .boton-desplegable {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Importante para la alineación vertical en teléfonos móviles */
+    margin: 0; /* Importante para la alineación vertical en teléfonos móviles */
+  }
+  
+  /* Agregar un color de fondo rojo a los enlaces de la barra de navegación al pasar el ratón */
+  .barra-navegacion a:hover, .desplegable:hover .boton-desplegable {
+    background-color: rgb(211, 168, 211);
+  }
+  
+  /* Contenido del desplegable (oculto por defecto) */
+  .contenido-desplegable {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Enlaces dentro del desplegable */
+  .contenido-desplegable a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+            /*ENCABEZADO INICIO*/
+.encabezado1{
+    font-family:Brush Script MT;
+    color: black;
+     width:100%;
+    padding: 75px 30px;
+    text-align: right;
+    font-size: 35px;
+   background-attachment: inherit;
+    background-image: url(chanelita.jpg);
+    background-size:100% 100%;
+ 
+}
+
+
+            
+
+            /*Fondo*/
+.cuerpo{
+    width:100%;
+    padding:30px;
+   
+  /*  background-image: url(descarga.jpeg);*/
+  
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-repeat: repeat-x;
+    height: 20%;
+    left:0px;
+}
+
+@media screen and (max-width:1000px){
+    .izq,.der, .dec{
+        width: 100%;
+        padding: 00%;
+        
+    }
+}
+@media screen and (max-width:800px){
+    .menu a{
+        float: none;
+        width: 100%;
+    }
+}
+
+.foto1{
+    text-align: center;
+   
+    
+}
+.foto{
+  
+  text-align: center;
+   
+    
+}
+.foto img{
+    
+    text-align:  left;
+   
+    
+   
+    
+}
+.foto iframe{
+    text-align: right;
+  
+   
+    
+}
+.musica{
+ 
+    float: right;
+    width:100%;
+    
+  
+   
+    
+}
+#m{
+    background-color: aliceblue;
+}
+embed{
+    background: red;
+}
+.cuerpo2::after{
+    content: "";
+    display: table; 
+    clear: both;
+}
+.pie2{
+    padding: .5px;
+    margin-top: .5px;
+    background-color: pink;
+    text-align: center;
+    
+}
+@media screen and (max-width:1000px){
+    .izq,.der, .dec, .foto, .foto3{
+        width: 100%;
+        padding: 00%;
+        
+    }
+    
+    .desplegable{
+    text-align: center;
+    width: 100%;
+  }
+
+  .contenido-desplegable{
+    text-align: center;
+    width: 100%;
+  }
+
+}
+@media screen and (max-width:800px){
+    .menu a{
+        float: none;
+        width: 100%;
+    }
+}

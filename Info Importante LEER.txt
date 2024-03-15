@@ -1,0 +1,9 @@
+/*Aqui te anexo la descripción de carmen serdan para colocar en el menu principal*/
+
+
+Carmen Serdán Alatriste es de las primeras guerreras que empuñaban las armas y disparaban las primeras balas de la Revolución Mexicana, durante su servicio destacó en diversos papeles, todos fundamentales para la revolución. Trabajando con su hermano Aquiles durante la campaña a favor de Francisco I. Madero en contra de Porfirio Díaz. Trasladó, construyó y ocultó las armas y explosivos que serían vitales para el levantamiento y la batalla revolucionaria. Colaboró en las páginas de El Hijo de Ahuizote y del Diario del Hogar. 
+
+
+/*Un modesto texto, no se que tan largo hacerlo, si es necesario agregar mas me dices :) */
+
+/*Por cierto, la foto de carmen serdán para utilizar esta es la que se llama "carmenserdan", no esta en la carpeta*/

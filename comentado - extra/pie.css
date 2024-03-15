@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .pie{
+    padding: 1vi;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+ }
+.iconos a{
+    text-decoration: none;
+    margin: 10px;
+}
+ .encabezado::after{
+    content: "";
+    display: table;
+    clear: both;    
+}
+.fin{
+    background-color: black;
+}
+.fin p{
+    padding: 1vi;
+    color: aliceblue;
+    text-align: center;
+}
